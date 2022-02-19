@@ -1,13 +1,14 @@
 import "./App.css";
 import React from "react";
 import Dictionary from "./Dictionary";
+import logo from "./logo.png";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <h1>Hello world</h1>
+          <img src={logo} className="App-logo" alt="logo" />
         </header>
         <main>
           <Dictionary />
@@ -19,7 +20,7 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Open Source
+              Open source
             </a>{" "}
             code by Luisa Rua Estrada
           </small>
