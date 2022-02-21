@@ -1,11 +1,17 @@
 body {
   background: #fcf5d7;
   font-family: "Blinker", sans-serif;
+  color: #272044;
 }
 
 a {
   text-decoration: none;
   color: #cfa004;
+}
+
+a:hover {
+  color: #fff;
+  background: #ffd000;
 }
 
 .App {
